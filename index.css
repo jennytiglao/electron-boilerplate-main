@@ -1,0 +1,159 @@
+/* General Page Styling */
+body {
+    font-family: Georgia, 'Courier New', Courier, monospace;
+    background-color: #f4f1de;
+    padding: 30px;
+    color: #3d405b;
+    text-align: center;         
+}
+.container {
+    font-family: Georgia, 'Courier New', Courier, monospace;
+    background-color: #e8dece;
+    padding: 20px;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-top: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    
+    
+        }
+
+h1 {
+	font-family: Georgia, 'Courier New', Courier, monospace;
+    font-size: 40px;
+    background-color: #81b29a;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #3d405b;
+    width: 60%;
+    margin: 30px auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #3d405b;
+}
+h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    color: #3d405b;
+
+}
+
+
+label {
+    background-color: #e0d3bd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    font-family: Georgia, 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-right: 15px;
+    color: #3d405b;
+}
+
+input[type="number"],
+input[type="text"] {
+    padding: 8px 12px;
+    margin: 0 15px 15px 0;
+    border: 1px solid #a8dadc;
+    border-radius: 7px;
+    transition: box-shadow 0.3s ease;
+}
+
+button {
+    font-family: Georgia, 'Courier New', Courier, monospace;
+    background-color: #81b29a;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #e07a5f;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.15);
+}
+
+.memory-output {
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: 2px solid #a8dadc;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f1d8af;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    min-width: 550px;
+    min-height: 120px;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.cell {
+    font-family: Georgia, 'Courier New', Courier, monospace;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    background-color: #e0fbfc;
+    color: #3d405b;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #a8dadc;
+}
+
+table {
+    font-family: Georgia, 'Courier New', Courier, monospace;
+    background-color: #f4f1de;
+    border-collapse: collapse;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+          }
+
+    th, td {
+        font-family: Georgia, 'Courier New', Courier, monospace;
+        border: 1px solid #a8dadc;
+        padding: 10px 15px;
+        text-align: center;
+        color: #3d405b;
+      }
+    
+
+    th {
+        font-family: Georgia, 'Courier New', Courier, monospace;
+        background-color: #81b29a;
+        color: white;
+        font-weight: bold;
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+      
